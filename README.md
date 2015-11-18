@@ -47,8 +47,6 @@ Available variables are listed below, along with default values (see defaults/ma
     supervisor_serverurl: 'unix:///var/run/supervisor.sock' # The URL passed in the environment to the subprocess process as SUPERVISOR_SERVER_URL
 
 
-* Support for environment option has been added (https://github.com/Stouts/Stouts.supervisor/pull/7)
-
 Example Playbook
 -----------------
 
