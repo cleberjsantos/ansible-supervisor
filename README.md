@@ -1,7 +1,10 @@
 supervisor
 ==========
 
+[![Ansible Role](https://img.shields.io/ansible/role/6078.svg)](https://galaxy.ansible.com/list#/roles/6078)
 [![Travis CI](https://img.shields.io/travis/cleberjsantos/ansible-supervisor/master.svg)](http://travis-ci.org/cleberjsantos/ansible-supervisor)
+[![Tag](https://img.shields.io/github/tag/cleberjsantos/ansible-supervisor.svg)]()
+
 
 Installs and configures supervisor process control system. Ansible role which manage [supervisor](http://supervisord.org)
 
