@@ -1,1 +1,18 @@
 ---
+
+galaxy_info:
+  author: Cleber J Santos
+  description: Installs and configures supervisor process control system (based on Stouts.supervisor)
+  license: GPLv2
+  min_ansible_version: 1.2
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+  - process
+  - management
+  - system

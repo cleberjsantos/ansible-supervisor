@@ -1,7 +1,7 @@
 ---
 
 supervisor_enabled: yes                   # The role is enabled
-supervisor_version: "3.1.2"
+supervisor_version: "3.1.3"
 supervisor_bindir: "/usr/local/bin"
 supervisor_bin: "{{ supervisor_bindir }}/supervisord"
 supervisor_pid: /var/run/supervisord.pid
@@ -21,6 +21,6 @@ supervisor_groups: []                     # groups of tasks
 supervisor_superlance: no                 # Install superlance (http://superlance.readthedocs.org/
 
 supervisor_username: admin
-supervisor_password: '{{ "12345"|password_hash("sha512") }}'
+supervisor_password: '{SHA}{{ "12345"|password_hash("sha512") }}'
 supervisor_port: '127.0.0.1:9001'
 supervisor_serverurl: 'unix:///var/run/supervisor.sock'
