@@ -14,5 +14,7 @@ galaxy_info:
     - all
   categories:
   - process
+  - monitoring
+  - web
   - management
   - system
