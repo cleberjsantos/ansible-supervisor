@@ -12,9 +12,10 @@ galaxy_info:
   - name: Ubuntu
     versions:
     - all
-  categories:
-  - process
-  - monitoring
-  - web
-  - management
-  - system
+  galaxy_tags:
+    - process
+    - monitoring
+    - web
+    - management
+    - system
+dependencies: []
